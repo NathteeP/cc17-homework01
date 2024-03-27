@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 8px;
+}
+.navbar a {
+    padding-inline: 6px;
+    text-decoration: none;
+}
+
+.pfp-container {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 32px;
+    margin-left: 60px;
+}
+
+.pfp-container img{
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+.myname {
+    margin-top: 40px;
+    margin-inline: 52px;
+}
+.myname h3, .myname p {
+    margin-block: 32px;
+}
+
+.middle-line {
+    margin-inline: 48px;
+    margin-block: 20px;
+}
+
+.personal-info {
+margin-block: 20px;
+margin-inline: 52px;
+line-height: 2;
+}
+
+.skill  {
+    margin-inline: 52px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+.skill h3 {
+    margin-block: 12px;
+}
+.ineedgooglelinkinmyresume {
+    margin: 16px;
+}
+
+.header {
+    margin: 48px;
+}
+.container {
+    margin-block: 24px;
+    width: 300px;
+    height: 300px;
+}
+.container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.table {
+    margin-inline: 52px;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.table td, .table th {
+    padding: 8px;
+    border: solid 2px black;
+    padding-inline: 20px;
+}
+.table th {
+    background-color: lightsteelblue;
+}
+.form-frame {
+    border: solid 1px  black;
+    margin: 48px;
+    padding: 24px;
+    line-height: 2.0;
+    width: 70%;
+}
+.form-frame h3 {
+    margin-bottom: 16px;
+}
+.inputbox {
+    width: 95%;
+}
+.messagebox {
+    width: 95%;
+    height: 10em;
+    padding: 8px;
+}
+.form-frame input {
+    padding-inline: 8px;
+    
+}

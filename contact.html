@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="work.html">Work Experience</a>
+        <a href="#">Contact Me</a>
+    </nav>
+    <hr />
+
+    <div class="header">
+        <h1>Contact Me</h1>
+    </div>
+
+    <div class="form-frame">
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+
+<h3>Enter your Info</h3>
+<label>Your Name : <br />
+<input class="inputbox" type="text" name="contact-name"></label><br />
+<label>Your Email :<br />
+<input class="inputbox" type="text" name="email"></label><br />
+<label for="gender">Gender</label><br />
+<select class="inputbox" id="gender" name="gender">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option>
+    </select><br />
+<label>Message <br />
+    <textarea class="messagebox" name="message" rows="10" cols="30"></textarea>      
+</label><br />
+<input type="submit" value="Send">
+<input type="reset" value="Clear">
+    </form>
+
+</div>
+</body>
+</html>
